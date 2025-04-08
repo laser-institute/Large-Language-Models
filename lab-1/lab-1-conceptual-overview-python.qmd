@@ -1,0 +1,65 @@
+---
+title: "Large Language Models"
+subtitle: "Lab 1: Conceptual-Overview"
+format:
+  revealjs: 
+    slide-number: c/t
+    progress: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    theme: [default, css/laser.scss]
+    logo: img/LASERLogoB.png
+    width: 1920
+    height: 1080
+    margin: 0.05
+    footer: <a href=https://www.go.ncsu.edu/laser-institute>go.ncsu.edu/laser-institute
+highlight-style: a11y
+editor: visual
+---
+
+## Agenda
+
+1.  Large Language Models
+
+2.  Zero shot
+
+3.  Few shot
+
+4.  Chain of thought
+
+## Large Language Models (LLMs)
+
+**Large Language Models (LLMs)** are types of artificial intelligence algorithms designed to understand, generate, and sometimes translate human language. They are trained on vast amounts of text data, allowing them to learn a wide variety of linguistic patterns, syntax, and semantics. This extensive training enables them to perform a range of language-based tasks that were previously challenging for machines.
+
+### Examples of Large Language Models:
+
+-   **OpenAI's GPT (Generative Pre-trained Transformer) series**: Models like GPT-3 have demonstrated capabilities in generating human-like text based on the prompts they receive.
+
+-   **Google's BERT (Bidirectional Encoder Representations from Transformers)**: Focused on improving search results by understanding the context of search queries.
+
+-   **Facebook’s RoBERTa (Robustly optimized BERT approach)**: An optimized version of BERT that improves language understanding.
+
+## Zero-Shot Learning
+
+**Zero-shot learning** refers to the ability of a model to correctly perform a task without having seen any examples from that specific task during training.
+
+![](img/zeroshot.png){fig-align="center" width="1200"}
+
+Resource: <https://saturncloud.io/blog/breaking-the-data-barrier-how-zero-shot-one-shot-and-few-shot-learning-are-transforming-machine-learning/>
+
+## Few-Shot Learning
+
+**Few-shot learning** involves training a model on a very limited amount of data about a specific task. Unlike zero-shot learning, few-shot learning requires some examples (though still very few) of the task to guide the model.
+
+![](img/fewshot.png){fig-align="center" width="1200"}
+
+Resource: <https://medium.com/ubiai-nlp/step-by-step-guide-to-mastering-few-shot-learning-a673054167a0>
+
+## Chain of Thought
+
+**Chain of thought** prompting is a technique used to encourage a model to 'think aloud' or step through its reasoning process as it works toward a solution.
+
+![](img/chainofthought.png){fig-align="center" width="1100"}
+
+Resource: <https://www.promptingguide.ai/techniques/cot>
